@@ -1,0 +1,2 @@
+delete from TESTCASE where Name = '0oi';
+delete from TESTCASE where ID <= 45 and ID > 33;

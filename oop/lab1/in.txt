@@ -1,0 +1,10 @@
+  K.Weng  3 5       5       5       
+       T.Dixon 3 4       3       2       
+    V.Chu   3 3       4       5      
+       L.Tson  3 4       3       4       
+       L.Lee   3 3       4       3    
+       I.Young 3 4       2       5      
+       K.Hiro  3 4       2       1       
+       G.Ping  3 4       4       4    
+       H.Gu    3 2       3       4       
+      J.Jon   3 5       4       3

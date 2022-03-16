@@ -1,0 +1,9 @@
+go north
+go north
+go east
+abcdef
+go north
+go south
+go west
+go south
+#end

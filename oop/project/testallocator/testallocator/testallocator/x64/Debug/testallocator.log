@@ -1,0 +1,96 @@
+﻿  testallocator.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(469,66): error C2027: 使用了未定义类型“std::_Replace_first_parameter<_Other,_Ty>”
+          with
+          [
+              _Other=int,
+              _Ty=MyAllocator<int,4096>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(469): message : 参见“std::_Replace_first_parameter<_Other,_Ty>”的声明
+          with
+          [
+              _Other=int,
+              _Ty=MyAllocator<int,4096>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(449): message : 查看对正在编译的 类 模板 实例化“std::_Get_rebind_type<_Alloc,_Ty,void>”的引用
+          with
+          [
+              _Alloc=MyAllocator<int,4096>,
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(756): message : 查看对正在编译的 别名 模板 实例化“std::_Normal_allocator_traits<_Alloc>::rebind_alloc<_Ty>”的引用
+          with
+          [
+              _Alloc=MyAllocator<int,4096>,
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(449): message : 查看对正在编译的 别名 模板 实例化“std::_Rebind_alloc_t<MyAllocator<T,4096>,_Ty>”的引用
+          with
+          [
+              T=int,
+              _Ty=int
+          ]
+D:\work\oop\project\testallocator\testallocator\testallocator\testallocator.cpp(107): message : 查看对正在编译的 类 模板 实例化“std::vector<T,MyAllocator<T,4096>>”的引用
+          with
+          [
+              T=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(469,60): error C2061: 语法错误: 标识符“type”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(573,69): error C2794: “type”: 不是“std::_Get_rebind_type<_Alloc,_Ty,void>”的任何直接或间接基类的成员
+          with
+          [
+              _Alloc=MyAllocator<int,4096>,
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(449,50): error C2938: “std::_Normal_allocator_traits<_Alloc>::rebind_alloc”: 未能使别名模板专用化
+          with
+          [
+              _Alloc=MyAllocator<int,4096>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(449,50): error C2938: “std::_Rebind_alloc_t”: 未能使别名模板专用化
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(458,52): error C2955: “std::allocator_traits”: 使用 类 模板 需要 模板 参数列表
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(737): message : 参见“std::allocator_traits”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(458,52): error C2039: "pointer": 不是 "std::allocator_traits<_Alloc>" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(458,1): error C2061: 语法错误: 标识符“pointer”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(459,52): error C2955: “std::allocator_traits”: 使用 类 模板 需要 模板 参数列表
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(737): message : 参见“std::allocator_traits”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(459,52): error C2039: "const_pointer": 不是 "std::allocator_traits<_Alloc>" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(459,1): error C2061: 语法错误: 标识符“const_pointer”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(462,52): error C2955: “std::allocator_traits”: 使用 类 模板 需要 模板 参数列表
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(737): message : 参见“std::allocator_traits”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(462,52): error C2039: "size_type": 不是 "std::allocator_traits<_Alloc>" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(462,1): error C2061: 语法错误: 标识符“size_type”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(463,52): error C2955: “std::allocator_traits”: 使用 类 模板 需要 模板 参数列表
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(737): message : 参见“std::allocator_traits”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(463,52): error C2039: "difference_type": 不是 "std::allocator_traits<_Alloc>" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(463,1): error C2061: 语法错误: 标识符“difference_type”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(467,30): error C2065: “size_type”: 未声明的标识符
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(467,41): error C2065: “difference_type”: 未声明的标识符
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(467,58): error C2065: “pointer”: 未声明的标识符
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(467,67): error C2065: “const_pointer”: 未声明的标识符
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(467,9): error C2923: “std::_Vec_iter_types”: 对于参数“_Size_type”，“size_type”不是有效的 模板 类型变量
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(467): message : 参见“size_type”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(467,9): error C2923: “std::_Vec_iter_types”: 对于参数“_Difference_type”，“difference_type”不是有效的 模板 类型变量
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(467): message : 参见“difference_type”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(467,9): error C2923: “std::_Vec_iter_types”: 对于参数“_Pointer”，“pointer”不是有效的 模板 类型变量
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(467): message : 参见“pointer”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(467,9): error C2923: “std::_Vec_iter_types”: 对于参数“_Const_pointer”，“const_pointer”不是有效的 模板 类型变量
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(467): message : 参见“const_pointer”的声明
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(467,88): error C2993: “unknown-type”: 不是非类型模板参数“_Test”的有效类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(470,53): error C3203: “_Vector_val”: 未专用化的 类 模板 不能用作 模板 变量，该变量属于 模板 参数“_Myvec”，应为 real 类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(471,59): error C3203: “_Vector_val”: 未专用化的 类 模板 不能用作 模板 变量，该变量属于 模板 参数“_Myvec”，应为 real 类型
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(486,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(486,94): error C2146: 语法错误: 缺少“)”(在标识符“_Count”的前面)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(486,94): error C3646: “_Count”: 未知重写说明符
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(486,100): error C2988: 不可识别的模板声明/定义
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(486,100): error C2059: 语法错误:“,”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(486,1): error C2059: 语法错误:“)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(486,1): error C2334: “{”的前面有意外标记；跳过明显的函数体
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(501,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(501,79): error C2146: 语法错误: 缺少“)”(在标识符“_Count”的前面)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(501,79): error C3646: “_Count”: 未知重写说明符
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(501,99): error C2988: 不可识别的模板声明/定义
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(501,99): error C2143: 语法错误: 缺少“;”(在“&”的前面)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(501,99): error C2059: 语法错误:“&”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(501,1): error C2059: 语法错误:“)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(501,1): error C2334: “:”的前面有意外标记；跳过明显的函数体
+D:\work\oop\project\testallocator\testallocator\testallocator\testallocator.cpp(105): fatal error C1075: “{”: 未找到匹配令牌

@@ -1,0 +1,5 @@
+select * from TESTCASE;
+select ID, Name from TESTCASE where Name = 'ade';
+select * from TESTCASE where Name = '0oi';
+select ID, Value from TESTCASE where ID <= 45 and ID > 33;
+select * from TESTCASE where ID <= 45 and Value> 500.2;

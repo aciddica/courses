@@ -1,0 +1,139 @@
+﻿  testallocator.cpp
+d:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(240): error C2672: “std::_Get_rebind_type<_Alloc,_Other>::_Fn”: 未找到匹配的重载函数
+          with
+          [
+              _Alloc=MyAllocator<int,4096>,
+              _Other=int
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(919): note: 参见对正在编译的类 模板 实例化“std::_Get_rebind_type<_Alloc,_Other>”的引用
+          with
+          [
+              _Alloc=MyAllocator<int,4096>,
+              _Other=int
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(450): note: 参见对正在编译的类 模板 实例化“std::_Wrap_alloc<MyAllocator<T,4096>>::rebind<_Ty>”的引用
+          with
+          [
+              T=int,
+              _Ty=int
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(502): note: 参见对正在编译的类 模板 实例化“std::_Vec_base_types<_Ty,_Alloc>”的引用
+          with
+          [
+              _Ty=int,
+              _Alloc=MyAllocator<int,4096>
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(680): note: 参见对正在编译的类 模板 实例化“std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>”的引用
+          with
+          [
+              _Ty=int,
+              _Alloc=MyAllocator<int,4096>
+          ]
+  d:\新桌面\浙江大学\面向对象程序设计\testallocator\testallocator\testallocator\testallocator.cpp(107): note: 参见对正在编译的类 模板 实例化“std::vector<T,MyAllocator<T,4096>>”的引用
+          with
+          [
+              T=int
+          ]
+d:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(240): error C2770: “std::_Identity<_Replace_first_parameter<_Other,_Uty>::type> std::_Get_rebind_type<_Alloc,_Other>::_Fn(std::_Wrap_int)”的显式 模板 参数无效
+          with
+          [
+              _Other=int,
+              _Alloc=MyAllocator<int,4096>
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(240): note: 参见“std::_Get_rebind_type<_Alloc,_Other>::_Fn”的声明
+          with
+          [
+              _Alloc=MyAllocator<int,4096>,
+              _Other=int
+          ]
+d:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(240): error C2770: “std::_Identity<_Uty::rebind<_Other>::other> std::_Get_rebind_type<_Alloc,_Other>::_Fn(int)”的显式 模板 参数无效
+          with
+          [
+              _Other=int,
+              _Alloc=MyAllocator<int,4096>
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(240): note: 参见“std::_Get_rebind_type<_Alloc,_Other>::_Fn”的声明
+          with
+          [
+              _Alloc=MyAllocator<int,4096>,
+              _Other=int
+          ]
+d:\新桌面\浙江大学\面向对象程序设计\testallocator\testallocator\testallocator\myallocator.h(47): warning C4624: “MyAllocator<T,4096>::Slot_”: 已将析构函数隐式定义为“已删除”
+          with
+          [
+              T=myObject
+          ]
+  d:\新桌面\浙江大学\面向对象程序设计\testallocator\testallocator\testallocator\myallocator.h(57): note: 参见对正在编译的类 模板 实例化“MyAllocator<T,4096>::Slot_”的引用
+          with
+          [
+              T=myObject
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(883): note: 参见对正在编译的类 模板 实例化“MyAllocator<T,4096>”的引用
+          with
+          [
+              T=myObject
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(450): note: 参见对正在编译的类 模板 实例化“std::_Wrap_alloc<MyAllocator<T,4096>>”的引用
+          with
+          [
+              T=myObject
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(502): note: 参见对正在编译的类 模板 实例化“std::_Vec_base_types<_Ty,_Alloc>”的引用
+          with
+          [
+              _Ty=myObject,
+              _Alloc=MyAllocator<myObject,4096>
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(680): note: 参见对正在编译的类 模板 实例化“std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>”的引用
+          with
+          [
+              _Ty=myObject,
+              _Alloc=MyAllocator<myObject,4096>
+          ]
+  d:\新桌面\浙江大学\面向对象程序设计\testallocator\testallocator\testallocator\testallocator.cpp(114): note: 参见对正在编译的类 模板 实例化“std::vector<T,MyAllocator<T,4096>>”的引用
+          with
+          [
+              T=myObject
+          ]
+d:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(240): error C2672: “std::_Get_rebind_type<_Alloc,_Other>::_Fn”: 未找到匹配的重载函数
+          with
+          [
+              _Alloc=MyAllocator<myObject,4096>,
+              _Other=myObject
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(919): note: 参见对正在编译的类 模板 实例化“std::_Get_rebind_type<_Alloc,_Other>”的引用
+          with
+          [
+              _Alloc=MyAllocator<myObject,4096>,
+              _Other=myObject
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(450): note: 参见对正在编译的类 模板 实例化“std::_Wrap_alloc<MyAllocator<T,4096>>::rebind<_Ty>”的引用
+          with
+          [
+              T=myObject,
+              _Ty=myObject
+          ]
+d:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(240): error C2770: “std::_Identity<_Replace_first_parameter<_Other,_Uty>::type> std::_Get_rebind_type<_Alloc,_Other>::_Fn(std::_Wrap_int)”的显式 模板 参数无效
+          with
+          [
+              _Other=myObject,
+              _Alloc=MyAllocator<myObject,4096>
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(240): note: 参见“std::_Get_rebind_type<_Alloc,_Other>::_Fn”的声明
+          with
+          [
+              _Alloc=MyAllocator<myObject,4096>,
+              _Other=myObject
+          ]
+d:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(240): error C2770: “std::_Identity<_Uty::rebind<_Other>::other> std::_Get_rebind_type<_Alloc,_Other>::_Fn(int)”的显式 模板 参数无效
+          with
+          [
+              _Other=myObject,
+              _Alloc=MyAllocator<myObject,4096>
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(240): note: 参见“std::_Get_rebind_type<_Alloc,_Other>::_Fn”的声明
+          with
+          [
+              _Alloc=MyAllocator<myObject,4096>,
+              _Other=myObject
+          ]

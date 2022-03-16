@@ -1,0 +1,11 @@
+10
+K.Weng  3 course1 5      course2 5      course3 5       
+T.Dixon 3 course1 4      course2 3      course3 2       
+V.Chu   3 course1 3      course2 4      course3 5      
+L.Tson  3 course4 4      course5 3      course6 4       
+L.Lee   4 course1 3      course2 4      course3 3    course4 2.5
+I.Young 0      
+K.Hiro  1 course7 4      
+G.Ping  2 course1 4      course2 4    
+H.Gu    3 course1 2      course2 1      course3 4       
+J.Jon   3 course1 5     course2  4      course3 1

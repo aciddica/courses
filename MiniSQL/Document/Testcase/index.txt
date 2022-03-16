@@ -1,0 +1,4 @@
+create index theindex on TESTCASE(Name);
+create index theindex on TESTCASE(Name);
+drop index theindex;
+create index theindex on TESTCASE(Name);

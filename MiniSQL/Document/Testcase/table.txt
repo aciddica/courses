@@ -1,0 +1,43 @@
+create table TESTCASE(
+  ID int,
+  Value float,
+  Name char(10) unique,
+  primary key(ID)
+);
+create table TESTCASE2(
+  Name char(10) unique,
+  Age int,
+  Sex char(3),
+  Salary float,
+  primary key(Name)
+);
+//尝试相同的table名称
+create table TESTCASE(
+  Name char(10) unique,
+  Age int,
+  Sex char(3),
+  Salary float,
+  primary key(Name)
+);
+//尝试不合法的属性
+create table TESTCASE1(
+  Name double unique,
+);
+create table TESTCASE1(
+  Name char(12345) unique,
+);
+//尝试将没有的属性设置为主键
+create table TESTCASE1(
+  Name char(10) unique,
+  Age int,
+  Sex char(3),
+  Salary float,
+  primary key(QWQ)
+);
+//尝试错误的格式
+create table TESTCASE1(
+  Name char(10) unique,
+  Age int,
+
+drop table TESTCASE;
+drop table TESTCASE2;
